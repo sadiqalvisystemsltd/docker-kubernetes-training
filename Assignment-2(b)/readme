@@ -1,4 +1,4 @@
 Creating deployment:
 kubectl create -f redis-deployment.yaml
 
-![Alt text](image.png)
+![alt text](https://github.com/sadiqalvisystemsltd/docker-kubernetes-training/blob/master/Assignment-2(b)/image.png)
