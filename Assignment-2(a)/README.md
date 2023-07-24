@@ -1,3 +1,7 @@
+
+Working Screenshot:
+![image](https://github.com/sadiqalvisystemsltd/docker-kubernetes-training/assets/134526875/fb29cac0-0d9e-40e6-8886-fc5b965d3a48)
+
 You can use `npm run start:dev` command in each service to start the server
 
 ## Assignment
