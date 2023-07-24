@@ -1,0 +1,20 @@
+# kubectl scale rs new-replica-set --replicas=5
+# kubectl get all
+
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: replicaset-1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: 19369-redis-pod
+  template:
+    metadata:
+      labels:
+        tier: 19369-redis-pod
+    spec:
+      containers:
+      - name: 19369-redis-pod
+        image: redis:latest
